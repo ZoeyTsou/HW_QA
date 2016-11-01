@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C440DE091DC3775C00D07782 /* QViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C440DE081DC3775C00D07782 /* QViewController.swift */; };
+		C46028A11DC8BC4500E3B9CA /* QQQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46028A01DC8BC4500E3B9CA /* QQQViewController.swift */; };
 		C487E7371DC0BAB1003F28CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C487E7361DC0BAB1003F28CE /* AppDelegate.swift */; };
 		C487E7391DC0BAB1003F28CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C487E7381DC0BAB1003F28CE /* ViewController.swift */; };
 		C487E73C1DC0BAB1003F28CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C487E73A1DC0BAB1003F28CE /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		C440DE081DC3775C00D07782 /* QViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QViewController.swift; sourceTree = "<group>"; };
+		C46028A01DC8BC4500E3B9CA /* QQQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QQQViewController.swift; sourceTree = "<group>"; };
 		C487E7331DC0BAB1003F28CE /* HW_QuizGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_QuizGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C487E7361DC0BAB1003F28CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C487E7381DC0BAB1003F28CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				C487E73D1DC0BAB1003F28CE /* Assets.xcassets */,
 				C487E73F1DC0BAB1003F28CE /* LaunchScreen.storyboard */,
 				C487E7421DC0BAB1003F28CE /* Info.plist */,
+				C46028A01DC8BC4500E3B9CA /* QQQViewController.swift */,
 			);
 			path = HW_QuizGame;
 			sourceTree = "<group>";
@@ -94,7 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Zoey;
 				TargetAttributes = {
 					C487E7321DC0BAB1003F28CE = {
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46028A11DC8BC4500E3B9CA /* QQQViewController.swift in Sources */,
 				C487E7391DC0BAB1003F28CE /* ViewController.swift in Sources */,
 				C440DE091DC3775C00D07782 /* QViewController.swift in Sources */,
 				C487E7371DC0BAB1003F28CE /* AppDelegate.swift in Sources */,
@@ -186,6 +190,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -235,6 +240,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
